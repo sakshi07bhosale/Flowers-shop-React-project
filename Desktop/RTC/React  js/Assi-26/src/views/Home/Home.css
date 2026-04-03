@@ -1,9 +1,14 @@
-.card{
-    border:  1px solid #080808;
-    padding: 2px 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin: 10px;
-    border-radius: 5px;
-    background-color: aqua;
-    min-height: 50vh;
+.main-container {
+  min-height: calc(100vh - 120px);
+  background: linear-gradient(135deg, #050711 0%, #0f1a2e 100%);
+  padding: 20px 0;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }

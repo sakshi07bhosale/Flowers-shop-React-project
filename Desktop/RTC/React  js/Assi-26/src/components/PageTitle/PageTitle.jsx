@@ -1,0 +1,12 @@
+import "./PageTitle.css";
+
+function PageTitle({ title,subtitle }) {
+  return (
+    <div className="page-title">
+      {title}
+      {subtitle ?<p className="page-title-subtitle">{subtitle}</p> : null }
+    </div>);
+  
+}
+
+export default PageTitle;

@@ -1,0 +1,14 @@
+.page-title{
+    font-size: 36px;
+    color: white;
+    margin-left: 40px ;
+    border-left: 4px solid  aliceblue;
+    padding-left: 20px;
+}
+.page-title-subtitle{
+    font-size: 15px;
+    color: rgb(162, 158, 158);
+    font-style: italic;
+    margin-top: 0px;
+
+}

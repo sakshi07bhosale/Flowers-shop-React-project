@@ -1,0 +1,31 @@
+.navbar {
+  background-color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 20px;
+  color: black;
+}
+
+.menu-item {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.menu-item:hover {
+  color: rgb(112, 107, 107);
+  transition: 0.3s;
+}
+
+.menu-icon {
+  height: 16px;
+}
+
+.active-menu {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  position: relative;
+  top: 3px;
+}
